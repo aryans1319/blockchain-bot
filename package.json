@@ -1,0 +1,19 @@
+{
+  "name": "onchainbot",
+  "version": "1.0.0",
+  "description": "Discord bot for tracking on-chain events on evm blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "14.8.0",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "moralis": "2.16.1",
+    "nodemon": "2.0.21"
+  }
+}
